@@ -19,9 +19,9 @@ fun main(args: Array<String>) {
     val tester = FakeSocialTester()
 
     val projects = listOf(
-            "JavaFakeSocial",
-            "KotlinFakeSocial",
-            "AnkoFakeSocial"
+            "JavaFakeSocial"
+//            "KotlinFakeSocial",
+//            "AnkoFakeSocial"
     )
 
     projects.forEach { tester.testProject(it) }
@@ -36,7 +36,7 @@ class FakeSocialTester {
         printf("Starting $projectName")
 
         val capabilities = DesiredCapabilities().apply {
-//            setCapability(DEVICE_NAME, "emulator-5554")
+            setCapability(DEVICE_NAME, "emulator-5554")
             setCapability(PLATFORM_NAME, "Android")
             setCapability(NEW_COMMAND_TIMEOUT, "120")
             setCapability(AUTOMATION_NAME, "uiautomator2")
