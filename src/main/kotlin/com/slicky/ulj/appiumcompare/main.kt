@@ -19,9 +19,9 @@ fun main(args: Array<String>) {
     val tester = FakeSocialTester()
 
     val projects = listOf(
-            "JavaFakeSocial"
-//            "KotlinFakeSocial",
-//            "AnkoFakeSocial"
+            "JavaFakeSocial",
+            "KotlinFakeSocial",
+            "AnkoFakeSocial"
     )
 
     projects.forEach { tester.testProject(it) }
