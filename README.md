@@ -14,12 +14,12 @@ AppiumCompare is used to compare applications.
 - AppiumCompare (this)
 
 ## AppiumCompare
-<img src="logo.png" height="200" alt="Logo"/>
+<img src="screenshot/logo.png" height="200" alt="Logo"/>
 
 This is test for Fake Social Project. Test should work for all three projects.
 
 ### Screenshot
-<img src="screenshot/screenshot.png" height="375" alt="Screenshot"/>
+<img src="screenshot/screenshot.gif" height="375" alt="Screenshot"/>
 
 ### Dependencies
 - [Kotlin](https://github.com/JetBrains/kotlin)
