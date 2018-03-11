@@ -23,6 +23,6 @@ This is test for Fake Social Project. Test should work for all three projects.
 
 ### Dependencies
 - [Kotlin](https://github.com/JetBrains/kotlin)
-*1.1.3-2*
+*1.2.30*
 - [Appium Java Client](https://github.com/appium/java-client)
-*4.0.0*
+*5.0.4*
