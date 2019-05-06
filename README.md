@@ -10,6 +10,9 @@ Project is separated into multiple modules.
 GitCompare is used to compare languages used on Github.
 - GitCompare ([HERE](https://github.com/SlickBot/GitCompare/))
 
+BuildCompare is used to compare build durations.
+- BuildCompare ([HERE](https://github.com/SlickBot/BuildCompare/))
+
 AppiumCompare is used to compare applications.
 - AppiumCompare (this)
 
@@ -23,6 +26,6 @@ This is test for Fake Social Project. Test should work for all three projects.
 
 ### Dependencies
 - [Kotlin](https://github.com/JetBrains/kotlin)
-*1.2.30*
+*1.3.31*
 - [Appium Java Client](https://github.com/appium/java-client)
-*5.0.4*
+*7.0.0*
