@@ -3,8 +3,8 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     ext{
-        kotlin_version = '1.2.30'
-        appium_version = '5.0.4'
+        kotlin_version = '1.3.30'
+        appium_version = '7.0.0'
     }
 
     repositories {
@@ -24,6 +24,4 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     compile "io.appium:java-client:$appium_version"
-
-    testCompile "junit:junit:4.12"
 }
