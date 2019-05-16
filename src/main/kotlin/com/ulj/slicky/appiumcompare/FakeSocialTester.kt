@@ -22,8 +22,8 @@ fun main() {
 
     val projects = listOf(
             "JavaFakeSocial",
-            "KotlinFakeSocial",
-            "AnkoFakeSocial"
+            "KotlinFakeSocial"
+//            "AnkoFakeSocial"
     )
 
     repeat(30) {
@@ -156,7 +156,7 @@ class FakeSocialTester {
      */
 
     private fun findApkPath(projectName: String): String {
-        return javaClass.getResource("/$projectName/app-appium-proguard.apk").path
+        return javaClass.getResource("/$projectName/app-appium.apk").path
     }
 
     private fun findAppPackage(projectName: String): String {

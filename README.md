@@ -15,6 +15,7 @@ BuildCompare is used to compare build durations.
 
 AppiumCompare is used to compare applications.
 - AppiumCompare (this)
+- AppiumCompareGraphs ([HERE](https://github.com/SlickBot/AppiumCompareGraphs/))
 
 ## AppiumCompare
 <img src="screenshot/logo.png" height="200" alt="Logo"/>
